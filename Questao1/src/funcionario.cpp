@@ -18,7 +18,8 @@ Funcionario::~Funcionario(){
 ostream& operator<< (ostream& o, const Funcionario *func){
   o << "Nome do funcionário: " << func->nome_func << "\n"
   << "Salário: " << func->salario_func << "\n"
-  << "Data de Admissao: " << func->data_adm_func << "\n\n";
+  << "Data de Admissao: " << func->data_adm_func << "\n" <<
+  "---------------------------------------------" << "\n";
   return o;
 }
 

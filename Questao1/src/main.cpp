@@ -4,6 +4,9 @@
 #include "funcionario.h"
 #include "date.h"
 
+/*Carmem Stefanie da Silva Cavalcante
+  Jemima Dias Nascimento*/
+
 using namespace std;
 
 int main() {

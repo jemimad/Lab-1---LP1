@@ -19,8 +19,9 @@ class Jogo{
 
 		int jogar_Dados();
 		void verificar_Estado(Jogador *jog);
-		void exibir_Jogadores();
+		void exibir_Jogadores(bool exibir_rodada);
 		void run_Partida(int i);
+    bool verificar_Ganhador();
 
 	public:
 
@@ -33,6 +34,5 @@ class Jogo{
 		~Jogo();
 
 };
-
 
 #endif

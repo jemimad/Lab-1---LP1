@@ -7,11 +7,11 @@ DATA_DIR = ./data
 
 #Variaveis
 CC = g++
-CFLAGS = -Wall -std=c++11
+CFLAGS = -Wall -std=c++11 -no-pie
 
 output: $(OBJ_DIR)/main.o $(OBJ_DIR)/funcionario.o $(OBJ_DIR)/empresa.o $(OBJ_DIR)/date.o $(OBJ_DIR)/controlador.o
 	mkdir -p bin
-	$(CC) $(CFLAGS) $(OBJ_DIR)/main.o $(OBJ_DIR)/funcionario.o $(OBJ_DIR)/empresa.o $(OBJ_DIR)/date.o $(OBJ_DIR)/controlador.o -o $(BIN_DIR)/Questao1 
+	$(CC) $(CFLAGS) $(OBJ_DIR)/main.o $(OBJ_DIR)/funcionario.o $(OBJ_DIR)/empresa.o $(OBJ_DIR)/date.o $(OBJ_DIR)/controlador.o -o $(BIN_DIR)/Questao1
 
 $(OBJ_DIR)/main.o: $(SRC_DIR)/main.cpp
 	mkdir -p obj

@@ -11,7 +11,7 @@ class Funcionario{
   private:
     string nome_func;
     float salario_func;
-    date *data_adm_func;
+    date *data_adm_func; 
     
   public:
     static int quant_funcionarios;

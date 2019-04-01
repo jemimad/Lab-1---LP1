@@ -162,9 +162,9 @@ inline long long_date(const date& d){
 };
 
 ostream & operator << (ostream& os, const date& d){
-  if(d.valid()){ os << " " << date(d) << " ";}
+  if(d.valid()) { os << " " << date(d) << " ";}
   //ali era long date mas tava dando erro aí eu tirei
   else{ os << " invalid date ";};
   return os;
-}
+};
 

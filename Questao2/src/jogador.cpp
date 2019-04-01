@@ -10,7 +10,7 @@ Jogador::~Jogador(){
 
 ostream& operator<< (ostream& o, const Jogador *jog){
   o << "Nome do jogador: " << jog->nome_jogador << "\n"
-  << "Pontos: " << jog->soma_pontos_jogador << "\n\n";
+  << "Pontos: " << jog->soma_pontos_jogador << "\n";
   return o;
 }
 
@@ -33,4 +33,4 @@ void Jogador::setPontos_jogador(int pontos){
 void Jogador::setEstado_jogador(bool estado){
 	estado_jogador = estado;
 }
-			
+					
